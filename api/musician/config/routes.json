@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/musicians",
+      "handler": "Musician.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/musicians/count",
+      "handler": "Musician.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/musicians/:id",
+      "handler": "Musician.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/musicians",
+      "handler": "Musician.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/musicians/:id",
+      "handler": "Musician.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/musicians/:id",
+      "handler": "Musician.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
