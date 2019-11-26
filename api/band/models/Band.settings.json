@@ -17,7 +17,7 @@
     "name": {
       "type": "string"
     },
-    "des": {
+    "desc": {
       "type": "text"
     },
     "photos": {
@@ -29,9 +29,6 @@
       "collection": "musician",
       "via": "bands",
       "dominant": true
-    },
-    "content": {
-      "type": "richtext"
     }
   }
 }

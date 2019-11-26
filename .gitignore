@@ -110,3 +110,8 @@ coverage
 exports
 .cache
 build
+
+############################
+# AWS EC2 KEY
+############################
+*.pem
