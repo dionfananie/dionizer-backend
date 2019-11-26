@@ -3,7 +3,10 @@
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
-    "enabled": false
+    "enabled": true,
+    "ssl": true,
+    "host": "https://dionizer-backend.herokuapp.com/",
+    "port": 8080
   },
   "cron": {
     "enabled": false
