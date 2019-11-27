@@ -5,7 +5,7 @@
       "connector": "strapi-hook-bookshelf",
       "settings": {
         "client": "postgres",
-        "host": "${process.env.DATABASE_HOST} || ec2-174-129-254-235.compute-1.amazonaws.com",
+        "host": "${process.env.DATABASE_HOST} || ec2-174-129-254-235.compute-1.amazonaws.com}",
         "port": "${process.env.DATABASE_PORT || 5432}",
         "database": "${process.env.DATABASE_NAME || dcb6iq09bj14ce}",
         "username": "${process.env.DATABASE_USERNAME} || vdybgcjvertjpl",
